@@ -1,0 +1,122 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas nucba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <style type="text/css">
+        section {
+            width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            color: peru;
+            font-size: 20px;
+        }
+
+        a:hover {
+            color: grey;
+        }
+
+        article {
+            display: inline-block;
+            padding: 20px;
+        }
+
+        li {
+            padding: 10px;
+        }
+    </style>
+
+    <header>
+        <h1>PELICULAS</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Precios</a>
+        </nav>
+        <section>
+            <h2>Busca tu pelicula</h2>
+
+            <article>
+                <h3>Por año</h3>
+                <label> <input type="radio" name="1" id="">2017</label>
+                <label> <input type="radio" name="2" id="">2018</label>
+                <label> <input type="radio" name="3" id="">2019</label>
+                <label> <input type="radio" name="4" id="">2020</label>
+            </article>
+
+            <article>
+                <h3 style="color: #32F242">Por nombre</h3>
+                <input type="text" placeholder="Busca tu pelicula" name="1" id="year">
+            </article>
+
+            <button type="submit">Enviar</button>
+
+            <article>
+                <h3>Por genero</h3>
+                <select name="" id="">
+                    <option value="1">Accion</option>
+                    <option value="2">Drama</option>
+                    <option value="3">Comedia</option>
+                    <option value="4">Terror</option>
+                </select>
+            </article>
+        </section>
+        <section>
+            <h2>Agregadas recientemente</h2>
+            <article>
+                <h3>Infinity war</h3>
+                <a href="">
+                    <img src="./img/infinityWar.jpg">
+                </a>
+
+
+                <ul>
+                    <li>Año: 2018</li>
+                    <li>Genero: Accion</li>
+                    <li>IMBO: 5,0 estrellas</li>
+
+                </ul>
+            </article>
+            <article>
+                <h3>AntMan</h3>
+                <a href="">
+                    <img src="./img/antman.jpg">
+                </a>
+
+
+                <ul>
+                    <li>Año: 2019</li>
+                    <li>Genero: Accion</li>
+                    <li>IMBO: 5,0 estrellas</li>
+
+                </ul>
+            </article>
+            <article>
+                <h3>Dead Pool</h3>
+                <a href="">
+                    <img src="./img/dead.jpg">
+                </a>
+
+
+                <ul>
+                    <li>Año: 2019</li>
+                    <li>Genero: Accion</li>
+                    <li>IMBO: 5,0 estrellas</li>
+
+                </ul>
+            </article>
+        </section>
+    </header>
+    <iframe src="https://giphy.com/embed/l0MYDGA3Du1hBR4xG" width="300" height="300" frameborder="0" class="giphy-embed"
+        allowfullscreen></iframe>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+body {
+
+    background-image: url(./img/fondo.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+
+}
+
+.contenedor {
+    margin: 10px;
+}
+
+.box1 {
+    width: 350px;
+    height: 500px;
+    background-color: beige;    
+    margin-left: 40%;
+    margin-top: 10%;
+    padding: 5px 5px;
+}
+
+.icono {
+    width: 100px;
+    height: 100px;
+    background-image: url(./img/icono.png);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    margin-left: 35%;
+    margin-top: 10%;
+    }
+
+.inicio {
+    width: 350px;
+    height: 50px;
+    text-align: center;
+    margin-top: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 2;
+    font: 40px;
+    margin-bottom: 5% ;
+    }
+
+    .cajas {
+        width: 350px;
+        height: 50px;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5% ;
+        }
+    
+    .cajaestilo {
+        width: 300px;
+        max-height: 100px;
+        padding-left: 20px;
+    }
+
+    input{
+        width:100%;
+        padding:10px;
+        box-sizing:border-box;
+        background:none;
+        outline:none;
+        resize:none;
+        border:0;
+        font-family:'Montserrat',sans-serif;
+        transition:all .3s;
+        border-bottom:2px solid #bebed2
+    }
+
+    button{
+        padding: 12px;
+        font-family:'Montserrat',sans-serif;
+        border:2px solid #78788c;
+        background:0;
+        color:#5a5a6e;
+        cursor:pointer;
+        transition:all .3s
+    }
+  
+    button:hover{
+        background:#78788c;
+        color:#fff}
+
+    .boton {
+        width: 350px;
+        height: 50px;
+        padding-left: 40%;
+        padding-top: 40px;
+    }    
+    .botonn {
+        width: 350px;
+        height: 50px;
+        padding-left: 24%;
+    }    
